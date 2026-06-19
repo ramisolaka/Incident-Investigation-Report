@@ -3,6 +3,7 @@
 ⚠️ Safety disclaimer
 This repository contains analysis and findings from a simulated REvil ransomware incident. No live malware binaries are included. Do not execute suspicious files on production systems — perform analysis in isolated lab environments (air-gapped VMs or sandbox services).
 
+---
 
 # REvil Investigation
 
