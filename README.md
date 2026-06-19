@@ -1,35 +1,44 @@
 # Lab Reports
 
-Hands-on cybersecurity lab walkthroughs focused on SOC analysis, DFIR, malware investigation, and clear technical documentation.
+> Practical SOC, DFIR, and malware analysis walkthroughs built from hands-on labs.
 
-## Overview
+`Splunk` `DFIR` `Malware Analysis` `Threat Intel` `Windows Logs` `Incident Investigation`
 
-This repository documents practical lab investigations in a way that is useful for both learners and hiring managers. Each walkthrough is built to show not only the final answer, but also the investigation process used to reach it.
+---
 
-The goal is simple:
+## Featured Lab
 
-- Document real hands-on analyst work
-- Build a clean public portfolio of practical security skills
-- Make walkthroughs easy for others to follow
+| Platform | Lab | Focus | Link |
+| --- | --- | --- | --- |
+| CyberDefenders | REvil | Ransomware investigation, Splunk, threat intelligence | [Open walkthrough](labs/cyberdefenders/revil/README.md) |
 
-## Core Skills Highlighted
+---
+
+## Why This Repo
+
+- Documents real investigation workflow, not just final answers
+- Makes labs easier for other learners to follow
+- Builds a portfolio of practical blue-team and DFIR work
+- Shows technical reasoning, validation, and documentation skills
+
+---
+
+## Skills Covered
 
 - Splunk log analysis
 - Windows event investigation
-- Malware and ransomware triage
 - Process tracing
+- Malware and ransomware triage
 - IOC extraction
-- Hash analysis
-- Threat intelligence validation
-- Incident documentation
+- Hash validation
+- Threat intelligence correlation
+- Investigation reporting
 
-## Featured Labs
+---
 
-| Platform | Lab | Focus | Walkthrough |
-| --- | --- | --- | --- |
-| CyberDefenders | REvil | Ransomware investigation, Splunk, threat intelligence | [View lab](labs/cyberdefenders/revil/README.md) |
+## Lab Structure
 
-## Repository Structure
+Each lab is organized in a clean and repeatable format:
 
 ```text
 labs/
@@ -39,9 +48,7 @@ labs/
       images/
 ```
 
-## Walkthrough Standard
-
-Each lab is documented using a simple and repeatable structure:
+Inside each walkthrough:
 
 1. Overview
 2. Scenario
@@ -51,18 +58,19 @@ Each lab is documented using a simple and repeatable structure:
 6. Final Answers
 7. Key Takeaways
 
-This format keeps the content beginner-friendly while still showing investigation logic, technical reasoning, and documentation quality.
-
-## Why This Repository Matters
-
-This repository is intended to show practical cybersecurity work, not just theory. The write-ups demonstrate how to:
-
-- Move from raw logs to meaningful findings
-- Pivot across artifacts during an investigation
-- Validate evidence with external intelligence sources
-- Explain technical findings in a clear and structured way
+---
 
 ## Platforms
 
-- CyberDefenders
-- More labs and platforms will be added over time
+### CyberDefenders
+
+- [REvil](labs/cyberdefenders/revil/README.md)
+
+---
+
+## Goal
+
+This repository is designed to be useful for two groups:
+
+- learners who want a clear walkthrough
+- hiring managers who want to see practical analyst work
