@@ -1,3 +1,5 @@
+https://cyberdefenders.org/blueteam-ctf-challenges/revil-gold-southfield
+
 ### Incident — REvil Ransomware Case Study
 
 ⚠️ Safety disclaimer
